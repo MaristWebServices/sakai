@@ -1089,14 +1089,14 @@ function publishSite(siteId) {
 
 function toggleToolsNav(){
 
-  event.preventDefault();
+//  event.preventDefault();
   $PBJQ('body').toggleClass('toolsNav--displayed');
 
 }
 
 function toggleSitesNav(){
 
-  event.preventDefault();
+  //event.preventDefault();
   $PBJQ('body').toggleClass('sitesNav--displayed');
   // remove class if siteNav submenus are activated
   $PBJQ('#linkNav .Mrphs-sitesNav__drop').removeClass('is-clicked');
@@ -1552,7 +1552,7 @@ function updatePresence(){
  */
 
 function toggleUserNav(){
-  event.preventDefault();
+//  event.preventDefault();
   $PBJQ('.Mrphs-userNav__subnav').toggleClass('is-hidden');
 }
 
