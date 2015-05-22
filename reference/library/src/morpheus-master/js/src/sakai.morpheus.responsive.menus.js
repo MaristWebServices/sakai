@@ -2,14 +2,14 @@
  * For Responsive Menus in Morpheus: Adds classes to the <body>
  */
 
-function toggleToolsNav(){
+function toggleToolsNav(event){
 
   event.preventDefault();
   $PBJQ('body').toggleClass('toolsNav--displayed');
 
 }
 
-function toggleSitesNav(){
+function toggleSitesNav(event){
 
   event.preventDefault();
   $PBJQ('body').toggleClass('sitesNav--displayed');

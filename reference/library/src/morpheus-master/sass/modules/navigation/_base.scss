@@ -207,6 +207,24 @@
 			display: inline-block;
 			vertical-align:middle;
 			text-decoration :none;
+			.#{$namespace}userNav__submenuitem--username{
+				position:relative;
+				top:-15px;
+			}
+			.#{$namespace}userNav__submenuitem--userid{
+				position:relative;
+				top:-15px;
+			}
+			.#{$namespace}userNav__submenuitem--profilepicture{
+				width:32px;
+				height:32px;
+				display:inline-block;
+				background-size:32px 32px;
+				border-radius:50%;
+				margin:5px auto 0px;
+			
+			}
+			
 		}
 
 		ul{
@@ -227,19 +245,7 @@
 			position:relative;
 			top:-15px;
 		}
-		.#{$namespace}userNav__submenuitem--username{
-			position:relative;
-			top:-15px;
-		}
-		.#{$namespace}userNav__submenuitem--profilepicture{
-			width:32px;
-			height:32px;
-			display:inline-block;
-			background-size:32px 32px;
-			border-radius:50%;
-			margin:5px auto 0px;
-			
-		}
+		
 		@media #{$phone}{
 			font-size: 1em;
 			background: transparent;
@@ -256,6 +262,15 @@
 				display: inline-block;
 				vertical-align:middle;
 				text-decoration :none;
+				.#{$namespace}userNav__submenuitem--username{
+					display:none;
+				}
+				.#{$namespace}userNav__submenuitem--userid{
+					display:none;
+				}
+				.#{$namespace}userNav__submenuitem--profilepicture{
+					margin:auto 0px;
+				}
 			}
 		}
 	}
